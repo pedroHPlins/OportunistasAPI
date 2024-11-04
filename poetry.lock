@@ -559,7 +559,7 @@ files = [
 ]
 
 [package.dependencies]
-numpy = {version = ">=1.22.4", markers = "python_version < \"3.10\""}
+numpy = {version = ">=1.22.4", markers = "python_version < \"4\""}
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
 tzdata = ">=2022.7"
@@ -794,5 +794,5 @@ multidict = ">=4.0"
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.10.0,<3.11"
+python-versions = ">=3.10.0,<4"
 content-hash = "42f6f25e1d8a3521a67cdf25b443c6f1230c4af1c82cdd538ccb3e63ed8f52e3"
